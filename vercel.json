@@ -1,0 +1,18 @@
+{
+  "version": 2,
+  "functions": {
+    "api/*.js": {
+      "runtime": "nodejs20.x"
+    }
+  },
+  "routes": [
+    {
+      "src": "/",
+      "dest": "/api/widgy"
+    },
+    {
+      "src": "/api/widgy",
+      "dest": "/api/widgy.js"
+    }
+  ]
+}
