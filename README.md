@@ -1,18 +1,10 @@
-# Harga Emas Widgy API
+# Harga Emas Widgy API v2
 
-Project Vercel khusus untuk Widgy. Tidak mengubah app grafik utama.
+Endpoint:
+`/api/widgy`
 
-Endpoint setelah deploy:
+Field Widgy utama:
+`buyback_100gr_short`
 
-`https://<nama-project>.vercel.app/api/widgy`
-
-Field yang dipakai di Widgy:
-
-- `buyback_100gr_short` contoh: `Rp257,67 jt`
-- `buyback_100gr_text` contoh: `Rp257.670.000`
-- `buyback_per_gram_text` contoh: `Rp2.576.700`
-- `updated_jakarta`
-- `live`
-
-Emergency manual test:
+Manual test:
 `/api/widgy?buyback=2576700`
